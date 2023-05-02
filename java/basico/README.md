@@ -62,3 +62,92 @@ public class ExemploClasse { // Nome da classe (deve começar com letra maiúscu
 ```
 
 O método main é o ponto de entrada do programa e deve estar presente em uma das classes. Ele é declarado como public static void main(String[] args).
+
+### **Variáveis e tipos de dados**
+
+Em Java, as variáveis são usadas para armazenar dados. Existem dois tipos de variáveis: primitivas e referências. As variáveis primitivas armazenam valores básicos, enquanto as variáveis de referência armazenam referências a objetos.
+
+**Tipos primitivos:**
+
+1. **`boolean`**: armazena um valor verdadeiro (**`true`**) ou falso (**`false`**).
+2. **`byte`**: armazena um valor inteiro de 8 bits (-128 a 127).
+3. **`short`**: armazena um valor inteiro de 16 bits (-32.768 a 32.767).
+4. **`int`**: armazena um valor inteiro de 32 bits (-2.147.483.648 a 2.147.483.647).
+5. **`long`**: armazena um valor inteiro de 64 bits (-9.223.372.036.854.775.808 a 9.223.372.036.854.775.807).
+6. **`float`**: armazena um valor decimal de precisão simples de 32 bits.
+7. **`double`**: armazena um valor decimal de precisão dupla de 64 bits.
+8. **`char`**: armazena um único caractere Unicode de 16 bits.
+
+### **Operadores e expressões**
+
+Os operadores são símbolos que realizam operações sobre os operandos (valores ou variáveis). As expressões são combinações de valores, variáveis e operadores que resultam em um único valor.
+
+**Operadores aritméticos:**
+
+1. **`+`**: adição
+2. **``**: subtração
+3. **``**: multiplicação
+4. **`/`**: divisão
+5. **`%`**: resto da divisão (módulo)
+
+**Operadores de comparação:**
+
+1. **`==`**: igualdade
+2. `!=`: desigualdade
+3. `<`: menor que
+4. `>`: maior que
+5. `<=`: menor ou igual a
+6. `>=`: maior ou igual a
+
+**Operadores lógicos:**
+
+1. `&&`: E lógico (AND)
+2. `||`: OU lógico (OR)
+3. `!`: NÃO lógico (NOT)
+
+**Operadores de atribuição:**
+
+1. `=`: atribuição simples
+2. `+=`: adição e atribuição
+3. `=`: subtração e atribuição
+4. `=`: multiplicação e atribuição
+5. `/=`: divisão e atribuição
+6. `%=`: módulo e atribuição
+
+**Operadores unários:**
+
+1. `+`: indica um valor positivo
+2. ``: negação (inverte o sinal)
+3. `++`: incremento (aumenta o valor em 1)
+4. `-`: decremento (diminui o valor em 1)
+
+**Operadores de deslocamento de bits:**
+
+1. `<<`: deslocamento à esquerda
+2. `>>`: deslocamento à direita (com sinal)
+3. `>>>`: deslocamento à direita (sem sinal)
+
+**Operadores de manipulação de bits:**
+
+1. `&`: E bit a bit (bitwise AND)
+2. `|`: OU bit a bit (bitwise OR)
+3. `^`: XOR bit a bit (bitwise XOR)
+4. `~`: complemento bit a bit (bitwise NOT)
+
+**Operador ternário:**
+
+1. `? :`: operador condicional ternário, que permite escolher entre dois valores com base em uma condição (sintaxe: `condição ? valorSeVerdadeiro : valorSeFalso`)
+
+**Precedência de operadores:**
+
+A precedência de operadores determina a ordem em que as operações são realizadas em uma expressão. Os operadores com maior precedência são avaliados primeiro. A ordem geral de precedência é:
+
+1. Operadores unários
+2. Operadores aritméticos
+3. Operadores de deslocamento de bits
+4. Operadores de comparação
+5. Operadores lógicos
+6. Operador ternário
+7. Operadores de atribuição
+
+Para alterar a ordem de avaliação dos operadores, utilize parênteses `()` para agrupar expressões.
